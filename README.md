@@ -32,10 +32,11 @@ npm install
 npm run build
 ```
 
-Add the repository's absolute path to the dsh Web profile, then restart `dsh web`:
+Enter the local plugin directory, add it to the dsh Web profile, then restart `dsh web`:
 
 ```powershell
-dsh plugin --profile web add (Get-Location).Path
+cd path\to\dsh-session-cleaner
+dsh plugin --profile web add .
 dsh web
 ```
 

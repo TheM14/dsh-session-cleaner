@@ -32,10 +32,11 @@ npm install
 npm run build
 ```
 
-将仓库的绝对路径添加到 dsh Web profile，然后重启 `dsh web`：
+进入本地插件目录，将它添加到 dsh Web profile，然后重启 `dsh web`：
 
 ```powershell
-dsh plugin --profile web add (Get-Location).Path
+cd path\to\dsh-session-cleaner
+dsh plugin --profile web add .
 dsh web
 ```
 
