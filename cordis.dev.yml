@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-session-cleaner
+      name: 'file:///C:/Tools/deepseek-harness/dsh-session-cleaner/src/index.ts'

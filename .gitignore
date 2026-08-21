@@ -1,0 +1,17 @@
+node_modules/
+coverage/
+.cache/
+.tmp/
+tmp/
+*.log
+*.tgz
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local agent instructions are not project release artifacts.
+AGENTS.md
+AGENTS.override.md
